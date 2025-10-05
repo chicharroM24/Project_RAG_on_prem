@@ -203,7 +203,7 @@ curl -X POST "http://localhost:7860/ask"   -H "Content-Type: application/json"  
 
 ---
 
-## 9) Estrutura de pastas (É necessário alterar)
+## 9) Estrutura de pastas
 ```
 ├─ chatbot
     ├─ pdf_clean.py    # pdf -> txt
