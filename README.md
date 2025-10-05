@@ -150,7 +150,7 @@ python pdf_clean.py
 ### 5.3. Ingestão / Indexação (a partir dos .txt limpos)
 ```bash
 # Lê .txt (data/Clean/), cria embeddings via Ollama e escreve no Qdrant
-python ingest.py
+python chatbot/ingest.py
 ```
 
 > Dicas:
