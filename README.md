@@ -11,14 +11,15 @@ Sistema de **Perguntas & Respostas** sobre documentos (PDF → texto limpo → e
 
 ## 🧱 Arquitetura
 ```
-PDFs (data/Original/) ──▶ pdf_clean.py ──▶ .txt (data/Clean/)
-                                                └─▶ ingest.py ──▶ embeddings (Ollama) ──▶ Qdrant (similarity search)
-                                                                                               ▲
-                                                                                               │
-                                                       rag_app.py (FastAPI/Gradio) ───────── ──┘
-                                                                    ▲
-                                                                    │
-                                                                 Ollama (LLM)
+    PDFs
+(data/Original/) ──▶ pdf_clean.py ──▶ .txt (data/Clean/)
+                                        └─▶ ingest.py ──▶ embeddings (Ollama) ──▶ Qdrant (similarity search)
+                                                                                       ▲
+                                                                                       │
+                                               rag_app.py (FastAPI/Gradio) ───────── ──┘
+                                                            ▲
+                                                            │
+                                                         Ollama (LLM)
 ```
 
 ---
