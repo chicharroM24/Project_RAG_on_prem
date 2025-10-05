@@ -12,9 +12,7 @@ venv/
 *.env
 
 # Dados e artefactos (ajusta à tua estrutura)
-data/Original/
-data/Clean/
-data/temp/
+data/
 qdrant_storage/
 logs/
 *.log
