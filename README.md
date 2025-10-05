@@ -204,7 +204,7 @@ curl -X POST "http://localhost:7860/ask"   -H "Content-Type: application/json"  
 ---
 
 ## 9) Estrutura de pastas (É necessário alterar)
-.
+```
 ├─ chatbot
     ├─ pdf_clean.py    # pdf -> txt
     ├─ ingest.py       # data do Vector DB
@@ -218,13 +218,10 @@ curl -X POST "http://localhost:7860/ask"   -H "Content-Type: application/json"  
 ├─ .env
 ```
 
----
-
 ## 10) NOTAS
 - **Chunking**: `CHUNK_SIZE=800` e `CHUNK_OVERLAP=150` - ajustável como as restantes variáveis em .env; 
 - **Embeddings**: `snowflake-arctic-embed2:568m` 
 - **LLM**: `llama3.3:70b-instruct-q2_K`
 - Tudo corre **offline** (Ollama + Qdrant locais).
 
----
 
