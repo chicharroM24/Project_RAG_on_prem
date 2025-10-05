@@ -1,6 +1,7 @@
 # RAG – LangChain (Ollama + Qdrant + FastAPI/Gradio)
 
-Sistema de **Perguntas & Respostas** sobre documentos (PDF → texto limpo → embeddings → *similarity search* → resposta com LLM), 100% local, com suporte opcional a **GPU (CUDA)**.
+**Chatbot Pt-pt** c/RAG de documentos pdf locais.
+(PDFs → texto limpo → embeddings → *similarity search* → resposta com LLM), 100% local, com suporte opcional a **GPU (CUDA)**.
 
 ## ✨ Funcionalidades
 - **Preparação de dados**: limpeza/OCR dos PDFs para `.txt` limpos.  
