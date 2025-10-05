@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+venv/
+
+# Env & config locais
+.env
+*.env
+
+# Dados e artefactos (ajusta à tua estrutura)
+data/Original/
+data/Clean/
+data/temp/
+qdrant_storage/
+logs/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.tar
+
+# Code
+utils.py
