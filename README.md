@@ -3,14 +3,14 @@
 **Chatbot Pt-pt** c/RAG de documentos pdf locais.
 (PDFs → texto limpo → embeddings → *similarity search* → resposta com LLM), 100% local, com suporte opcional a **GPU (CUDA)**.
 
-## ✨ Funcionalidades
+## Funcionalidades
 - **Preparação de dados**: limpeza/OCR dos PDFs para `.txt` limpos.  
 - **Ingestão de dados**: Ingestão dos chunks gea partir dos `.txt` para o **Qdrant**.
 - **Chat RAG**: *Similarity search* no **Qdrant** + contexto dos documentos com um **LLM via Ollama**.  
 - **Modos**: FastAPI (API REST) e/ou Gradio (UI web).  
 - **GPU-ready**: EasyOCR e LLMs acelerados por CUDA (opcional).
 
-## 🧱 Arquitetura
+## Arquitetura
 ```
     PDFs
 (data/Original/) ──▶ pdf_clean.py ──▶ .txt (data/Clean/)
